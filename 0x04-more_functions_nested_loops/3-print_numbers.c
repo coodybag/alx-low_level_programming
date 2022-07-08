@@ -7,12 +7,10 @@
 */
 void print_numbers(void)
 {
-int i = 0;
-do
+int i = '0';
+for (; i <= '9'; i++)
 {
-_putchar(i + 48);
-i++;
+_putchar(i);
 }
-while (i >= 0 && i <= 9);
 _putchar('\n');
 }

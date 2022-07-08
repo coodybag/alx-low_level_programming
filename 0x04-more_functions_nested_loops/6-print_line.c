@@ -15,6 +15,6 @@ for (; i < n; i++)
 {
 _putchar('_');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
